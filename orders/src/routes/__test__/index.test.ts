@@ -15,7 +15,7 @@ const buildTicket = async () => {
   return ticket;
 };
 
-it('fetches orders for an particular user', async () => {
+it('fetches orders for a particular user', async () => {
   // Create three tickets
   const ticketOne = await buildTicket();
   const ticketTwo = await buildTicket();
