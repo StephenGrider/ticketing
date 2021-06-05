@@ -1,0 +1,14 @@
+# This workflow uses actions that are not certified by GitHub.
+name: tests
+
+on:
+  pull_request
+   
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd auth && npm install && npm run test:ci
+      
+      
