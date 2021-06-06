@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: stephengrider/payments
+          image: 909007/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

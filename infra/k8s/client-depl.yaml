@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: stephengrider/client
+          image: 909007/client
 ---
 apiVersion: v1
 kind: Service
